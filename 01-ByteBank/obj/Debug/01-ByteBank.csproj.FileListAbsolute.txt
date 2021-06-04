@@ -5,3 +5,10 @@ C:\Users\patricia.faustino\source\repos\ByteBank\01-ByteBank\obj\Debug\01-ByteBa
 C:\Users\patricia.faustino\source\repos\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.csproj.CoreCompileInputs.cache
 C:\Users\patricia.faustino\source\repos\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.exe
 C:\Users\patricia.faustino\source\repos\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.pdb
+C:\src\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.exe.config
+C:\src\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.exe
+C:\src\ByteBank\01-ByteBank\bin\Debug\01-ByteBank.pdb
+C:\src\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.csprojAssemblyReference.cache
+C:\src\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.csproj.CoreCompileInputs.cache
+C:\src\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.exe
+C:\src\ByteBank\01-ByteBank\obj\Debug\01-ByteBank.pdb
