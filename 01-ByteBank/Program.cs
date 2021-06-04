@@ -12,6 +12,8 @@ namespace _01_ByteBank
         {
             ContaCorrente contaDaGabriela = new ContaCorrente();
 
+            Console.WriteLine($"Saldo: R${contaDaGabriela.saldo}");
+
             contaDaGabriela.titular = "Gabriela";
             contaDaGabriela.agencia = 863;
             contaDaGabriela.numero = 863452;
