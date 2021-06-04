@@ -12,18 +12,35 @@ namespace _01_ByteBank
         {
             ContaCorrente contaDaGabriela = new ContaCorrente();
 
-            Console.WriteLine($"Saldo: R${contaDaGabriela.saldo}");
-
             contaDaGabriela.titular = "Gabriela";
             contaDaGabriela.agencia = 863;
             contaDaGabriela.numero = 863452;
             contaDaGabriela.saldo = 100;
-            contaDaGabriela.saldo += 200;
 
-            Console.WriteLine($"Titular: {contaDaGabriela.titular}");
-            Console.WriteLine($"Agência: {contaDaGabriela.agencia}");
-            Console.WriteLine($"Número: {contaDaGabriela.numero}");
-            Console.WriteLine($"Saldo: R${contaDaGabriela.saldo}");
+
+            ContaCorrente contaDaGabrielaCosta = new ContaCorrente();
+
+
+
+            contaDaGabrielaCosta.titular = "Gabriela";
+            contaDaGabrielaCosta.agencia = 863;
+            contaDaGabrielaCosta.numero = 863452;
+
+
+            Console.WriteLine($"Igualdade referência: { contaDaGabriela == contaDaGabrielaCosta}");
+
+            int idade = 27;
+            int idadeMaisUmaVez = 27;
+
+            Console.WriteLine($"Igualdade valor: {idade == idadeMaisUmaVez}");
+
+            contaDaGabriela = contaDaGabrielaCosta;
+            Console.WriteLine($"Igualdade referência: { contaDaGabriela == contaDaGabrielaCosta}");
+
+            contaDaGabriela.saldo = 300;
+
+            Console.WriteLine(contaDaGabriela.saldo);
+            Console.WriteLine(contaDaGabrielaCosta.saldo);
 
             Console.ReadLine();
         }
