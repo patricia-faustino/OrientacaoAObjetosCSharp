@@ -11,11 +11,9 @@
         {
             return false;
         }
-        else
-        {
-            this.saldo -= valor;
-            return true;
-        }
+
+        this.saldo -= valor;
+        return true;
 
     }
 
@@ -30,12 +28,10 @@
         {
             return false;
         }
-        else
-        {
+
             this.saldo -= valor;
             contaDestino.Depositar(valor);
             return true;
-        }
     }
 
 }
