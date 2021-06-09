@@ -18,6 +18,6 @@ namespace _01_ByteBank
                 _cpf = value;
             } 
         }
-        public string Profissao { get; set }
+        public string Profissao { get; set; }
     }
 }
